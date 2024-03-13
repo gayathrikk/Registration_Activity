@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-21T13:02:04 IST" name="Default suite" finished-at="2024-02-21T13:04:52 IST" duration-ms="167621">
+  <suite started-at="2024-03-13T10:03:17 IST" name="Default suite" finished-at="2024-03-13T10:03:18 IST" duration-ms="1810">
     <groups>
     </groups>
-    <test started-at="2024-02-21T13:02:04 IST" name="Default test" finished-at="2024-02-21T13:04:52 IST" duration-ms="167621">
-      <class name="com.test.Registration_Sanity.Testing">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Registration_Sanity.Testing@48f278eb]" started-at="2024-02-21T13:02:04 IST" name="setup" finished-at="2024-02-21T13:02:05 IST" duration-ms="1365" status="PASS">
+    <test started-at="2024-03-13T10:03:17 IST" name="Default test" finished-at="2024-03-13T10:03:18 IST" duration-ms="1810">
+      <class name="com.test.Registration_Sanity.Today_activity">
+        <test-method signature="testDB()[pri:0, instance:com.test.Registration_Sanity.Today_activity@56cdfb3b]" started-at="2024-03-13T10:03:17 IST" name="testDB" finished-at="2024-03-13T10:03:18 IST" duration-ms="1794" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:1, instance:com.test.Registration_Sanity.Testing@48f278eb]" started-at="2024-02-21T13:02:05 IST" name="Login" finished-at="2024-02-21T13:02:32 IST" duration-ms="26716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="series_set()[pri:2, instance:com.test.Registration_Sanity.Testing@48f278eb]" started-at="2024-02-21T13:02:32 IST" name="series_set" finished-at="2024-02-21T13:02:45 IST" duration-ms="13039" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- series_set -->
-        <test-method signature="Rotation()[pri:3, instance:com.test.Registration_Sanity.Testing@48f278eb]" started-at="2024-02-21T13:02:45 IST" name="Rotation" finished-at="2024-02-21T13:03:35 IST" duration-ms="50111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Rotation -->
-        <test-method signature="Retrive()[pri:4, instance:com.test.Registration_Sanity.Testing@48f278eb]" started-at="2024-02-21T13:03:35 IST" name="Retrive" finished-at="2024-02-21T13:04:52 IST" duration-ms="76233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Retrive -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.Registration_Sanity.Testing@48f278eb]" started-at="2024-02-21T13:04:52 IST" name="tearDown" finished-at="2024-02-21T13:04:52 IST" duration-ms="127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.test.Registration_Sanity.Testing -->
+        </test-method> <!-- testDB -->
+      </class> <!-- com.test.Registration_Sanity.Today_activity -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
