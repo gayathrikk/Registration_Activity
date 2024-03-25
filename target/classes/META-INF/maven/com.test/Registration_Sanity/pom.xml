@@ -77,7 +77,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>com.test.Registration_Sanity.Today_activity</test>
+            <test>com.test.Registration_Sanity.Registration_activty</test>
           </configuration>
         </plugin>
       </plugins>
