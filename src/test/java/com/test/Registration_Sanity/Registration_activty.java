@@ -120,12 +120,12 @@ public class Registration_activty {
 	Thread.sleep(3000);
 
 	WebElement redirectIcon = wait.until(
-	ExpectedConditions.visibilityOfElementLocated(By.xpath("(//nb-card-footer[@class='p-2'])[1]/nb-icon")));
+	ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
 	if (redirectIcon != null && redirectIcon.isDisplayed()) {
 	redirectIcon.click();
-	System.out.println("Brain was clicked successfully");
+	System.out.println("Viewer was clicked successfully");
 	} else {
-	System.out.println("Brain was not clicked");
+	System.out.println("Viewer was not clicked");
 	}
 	Thread.sleep(3000);
 
