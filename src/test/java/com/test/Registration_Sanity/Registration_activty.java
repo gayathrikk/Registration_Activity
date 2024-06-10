@@ -70,7 +70,7 @@ public class Registration_activty {
 	WebElement emailInput = wait
 	.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
 	if (emailInput != null && emailInput.isDisplayed()) {
-	emailInput.sendKeys("softwaretestingteam9@gmail.com");
+	emailInput.sendKeys("teamsoftware457@gmail.com");
 	System.out.println("Email was entered successfully.");
 	} else {
 	System.out.println("Email was not entered.");
@@ -222,10 +222,10 @@ public class Registration_activty {
 
 	@Test(priority = 4)
 	public void userName() throws InterruptedException {
-	String[] expectedFileName = { "Software Team" };
+	String[] expectedFileName = { "software team" };
 
 	java.util.List<WebElement> locationElements = driver
-	.findElements(By.xpath("(//td[text()='Software Team'])[1]"));
+	.findElements(By.xpath("(//td[text()='software team'])[1]"));
 	String actualFileName = locationElements.get(0).getText();
 	Thread.sleep(2000);
 
@@ -241,7 +241,7 @@ public class Registration_activty {
 	String[] expectedFileName = { "Manual Registration" };
 
 	java.util.List<WebElement> locationElements = driver
-	.findElements(By.xpath("(//td[text()='Software Team'])[1]/following-sibling::td[1]"));
+	.findElements(By.xpath("(//td[text()='software team'])[1]/following-sibling::td[1]"));
 	String actualFileName = locationElements.get(0).getText();
 	Thread.sleep(2000);
 
@@ -257,7 +257,7 @@ public class Registration_activty {
 	String[] expectedFileName = { "SS-14:7:335" };
 
 	java.util.List<WebElement> locationElements = driver
-	.findElements(By.xpath("(//td[text()='Software Team'])[1]/following-sibling::td[2]"));
+	.findElements(By.xpath("(//td[text()='software team'])[1]/following-sibling::td[2]"));
 	String actualFileName = locationElements.get(0).getText();
 	Thread.sleep(2000);
 
